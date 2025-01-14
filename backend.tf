@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "june2024class"
+    bucket = "Dec-2025-class"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "june2024class"
+    dynamodb_table = "Dec-2025-class"
   }
 }
